@@ -1,0 +1,30 @@
+html {
+    font-size: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: inherit;
+}
+
+/* como se controla el orden al declarar en css?
+1 por importancia
+2 especificidad
+3 orden en las fuentes
+
+es como una regla de cascada
+
+1ero se cargan los estilos del navegador
+luego las delaraciones de nuestro estilo
+y luego el 1important q lo hace mas importante
+
+orden de importancia 
+!important hay q evitar este, es mala practica
+Inline styles
+#id
+.class
+tag
+
+el orden de las fuentes: primero llama lo de arriba y luego lo de abajo pero luego los deabajo pueden reescribir lo de arriba
+
+*/

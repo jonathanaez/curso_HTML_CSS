@@ -1,0 +1,28 @@
+/*  hay 3 formas  de llamar estilos  css 
+la 1era es por el elemento por ejemplo p{} aqui estoy llevando el estilo a ese parrafo
+la 2da es por clase por ej:  en html le pones a tu elemento el atributo class con su nombre (class="nombre") y para llamarlo aqui en css lo llamas con .nombre{}
+la3era forma es con el ID, este comienza con un #, la diferencia es q en html la llammas con id="nombre" y en css #nombre{}
+hay que tener cuidado con los id y las class que son muy diferentes
+
+cada pagina va a tener un archivo css.
+
+hay una metodologia CSS llamada BEM
+
+*/
+
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: o;
+    background-color: aqua;
+}
+.main-nav_item {
+    display: inline-block;
+}
+.main-nav_item a {
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    background-color: brown;
+}

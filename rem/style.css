@@ -1,0 +1,24 @@
+/* esto siempre debe venir en todos mis css
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+/*con esta formla llamando al html con un % de 62.5% la fuentes quedarian en 10px, porq por defecto el html es de 16px 
+y la medida rem siempre siempre va a ser equivalente a los px q viene por defectos en html (16px), entonces con esto
+los pidexles quedan en 10 que es = a 1rem, si quiero 20 px pongo 2rem, si quiero 30px pongo 3 rem y asi */
+p {
+    font-size: 1.6rem;
+}
